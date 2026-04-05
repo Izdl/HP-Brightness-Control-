@@ -67,18 +67,6 @@ max_brightness = 100     ; Maximum brightness level (%)
 | Service won't start | Run installer as administrator; check Windows Event Viewer for errors |
 | Conflicts with other tools | Disable OmenMon or similar performance tools temporarily |
 
-## 📝 Log Files
-
-Debug logs are stored in:
-```
-%LOCALAPPDATA%\HPBrightnessControl\logs\
-```
-
-Enable verbose logging by setting in `config.ini`:
-```ini
-[logging]
-level = DEBUG
-```
 
 ## 🤝 Contributing
 

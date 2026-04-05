@@ -18,11 +18,11 @@ Control display brightness using **Fn+F3** (decrease) and **Fn+F4** (increase) o
 ### From Releases (Recommended)
 
 1. Navigate to the [Releases](../../releases) page
-2. Download the latest `.exe` or `.msi` installer
-3. Run the installer with administrator privileges
-4. Restart your system
+2. Download the latest `.zip` file 
+3. Run Start_HP_brightness_sync.bat with administrator privileges
+4. Run add_to_startup.bat (or remove) to make it run or stop running during startup 
 
-> **Note:** Not all files are committed to `main`. Always download from [Releases](../../releases) for the complete, tested package.
+> **Note:** DOWNLOAD FROM [RELEASES!!!](../../releases) for the complete, tested package.
 
 ### Manual Setup
 
@@ -45,18 +45,6 @@ Once installed, simply press:
 - **Fn + F4** — Increase brightness
 
 Brightness adjusts in 10% increments. Confirmation via OSD (On-Screen Display) may appear depending on your device.
-
-## ⚙️ Configuration
-
-Edit `config.ini` to customize behavior:
-
-```ini
-[brightness]
-step_size = 10           ; Brightness increment/decrement (1-100)
-display_osd = true       ; Show on-screen display notification
-min_brightness = 10      ; Minimum brightness level (%)
-max_brightness = 100     ; Maximum brightness level (%)
-```
 
 ## 🔧 Troubleshooting
 
